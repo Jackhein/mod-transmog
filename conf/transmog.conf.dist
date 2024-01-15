@@ -61,10 +61,10 @@
 #        Default:    1
 
 Transmogrification.Enable = 1
-Transmogrification.UseCollectionSystem = 1
+Transmogrification.UseCollectionSystem = 0
 Transmogrification.AllowHiddenTransmog = 1
-Transmogrification.TrackUnusableItems = 1
-Transmogrification.RetroActiveAppearances = 1
+Transmogrification.TrackUnusableItems = 0
+Transmogrification.RetroActiveAppearances = 0
 Transmogrification.ResetRetroActiveAppearancesFlag = 0
 
 Transmogrification.EnableTransmogInfo = 1
@@ -73,7 +73,7 @@ Transmogrification.TransmogNpcText = 601083
 Transmogrification.Allowed = ""
 Transmogrification.NotAllowed = ""
 
-Transmogrification.EnablePortable = 1
+Transmogrification.EnablePortable = 0
 
 #
 #    COPPER COST
@@ -197,8 +197,8 @@ Transmogrification.TokenAmount = 1
 #        Description: Ignore stat count > 0 requirement for source items
 #        Default:    0
 
-Transmogrification.AllowPoor = 0
-Transmogrification.AllowCommon = 0
+Transmogrification.AllowPoor = 1
+Transmogrification.AllowCommon = 1
 Transmogrification.AllowUncommon = 1
 Transmogrification.AllowRare = 1
 Transmogrification.AllowEpic = 1
@@ -209,7 +209,7 @@ Transmogrification.AllowTradeable = 0
 
 Transmogrification.AllowMixedArmorTypes = 0
 Transmogrification.AllowMixedWeaponTypes = 0
-Transmogrification.AllowMixedWeaponHandedness = 0
+Transmogrification.AllowMixedWeaponHandedness = 1
 Transmogrification.AllowFishingPoles = 0
 
 Transmogrification.IgnoreReqRace = 0
@@ -218,7 +218,7 @@ Transmogrification.IgnoreReqSkill = 0
 Transmogrification.IgnoreReqSpell = 0
 Transmogrification.IgnoreReqLevel = 0
 Transmogrification.IgnoreReqEvent = 0
-Transmogrification.IgnoreReqStats = 0
+Transmogrification.IgnoreReqStats = 1
 
 #
 #    SET FEATURE
