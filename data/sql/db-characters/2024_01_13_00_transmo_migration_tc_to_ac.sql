@@ -1,3 +1,5 @@
+DROP PROCEDURE IF EXISTS transmogrification_migration_tc_to_ac;
+
 DELIMITER //
 
 CREATE PROCEDURE transmogrification_migration_tc_to_ac()
